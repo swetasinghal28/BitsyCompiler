@@ -1,0 +1,10 @@
+int x = 1;
+func test() {
+  x = 2;
+  print("inside x:");
+  print(x);
+  return;
+}
+test();
+print("\noutside x:");
+print(x);

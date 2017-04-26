@@ -1,0 +1,6 @@
+int x = 3;
+int y = 5;
+print(avg(x, y));
+func avg(int a, int b) {
+	return (a + b)/2;
+}

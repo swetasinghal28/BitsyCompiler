@@ -1,0 +1,8 @@
+int a = 6;
+if(a < 5) {
+	print("a is less than 5");
+} elif(a < 10) {
+	print("a is greater or equal to 5 and less than 10");
+} else {
+	print("a is greater than 10");
+}

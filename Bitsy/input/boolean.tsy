@@ -1,0 +1,15 @@
+bool x = false;
+int y;
+y = 5;
+if ( x ){
+	print("Inside if");
+	print(y);
+}else{
+	print("Inside else");
+	x = true || x;
+	print(x);
+	x = x && false;
+}
+
+print("Outside");
+print(x);

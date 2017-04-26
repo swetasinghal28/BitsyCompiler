@@ -1,0 +1,8 @@
+int x = false && true;
+print(x);
+
+int y = false || false;
+print(y);
+
+int z = 6 <= 8 && 5 > 7;
+print(z);

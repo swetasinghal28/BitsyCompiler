@@ -1,0 +1,2 @@
+print("Enter two numbers to sum");
+print(input() + input());
